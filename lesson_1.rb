@@ -4,17 +4,18 @@ class Dog
   def initialize(name, age)
     @name = name
     @age = age
-  end 
-  
+    @alive = true
+  end
+
   def bark
    puts "woof"
   end
-  
+
   def alive?
-    true
-  end 
+    @alive
+  end
 
   def dead?
-    !alive?
+    !@alive
   end
 end
