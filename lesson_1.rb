@@ -9,5 +9,12 @@ class Dog
   def bark
    puts "woof"
   end
+  
+  def alive?
+    true
+  end 
 
+  def dead?
+    !alive?
+  end
 end
