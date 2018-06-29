@@ -14,4 +14,7 @@ class Dog
     true
   end 
 
+  def dead?
+    !alive?
+  end
 end
