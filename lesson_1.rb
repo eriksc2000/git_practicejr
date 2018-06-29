@@ -4,5 +4,9 @@ class Dog
     @name = name
     @age = age
   end 
+  
+  def bark
+   puts "woof"
+  end
 
 end
