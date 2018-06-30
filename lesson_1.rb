@@ -22,4 +22,8 @@ class Dog
   def likes_cats?
     false 
   end 
+  
+  def sit
+   puts 'good dog'
+  end 
 end
