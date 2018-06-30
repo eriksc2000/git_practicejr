@@ -18,4 +18,8 @@ class Dog
   def dead?
     !@alive
   end
+  
+  def likes_cats?
+    false 
+  end 
 end
