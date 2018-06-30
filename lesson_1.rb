@@ -19,7 +19,7 @@ class Dog
     !@alive
   end
   
-  def likes_cats?
-    false 
-  end 
+  # def likes_cats?
+  #   false 
+  # end 
 end
