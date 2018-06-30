@@ -7,9 +7,9 @@ class Dog
     @alive = true
   end
 
-  def bark
-   puts "woof"
-  end
+  # def bark
+  #  puts "woof"
+  # end
 
   def alive?
     @alive
