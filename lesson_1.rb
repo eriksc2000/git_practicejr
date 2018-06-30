@@ -7,23 +7,23 @@ class Dog
     @alive = true
   end
 
-  def bark
-   puts "woof"
-  end
-
-  def alive?
-    @alive
-  end
-
-  def dead?
-    !@alive
-  end
-  
-  def likes_cats?
-    false 
-  end 
-  
-  def sit
-   puts 'good dog'
-  end 
+  # def bark
+  #  puts "woof"
+  # end
+  # 
+  # def alive?
+  #   @alive
+  # end
+  # 
+  # def dead?
+  #   !@alive
+  # end
+  # 
+  # def likes_cats?
+  #   false 
+  # end 
+  # 
+  # def sit
+  #  puts 'good dog'
+  # end 
 end
